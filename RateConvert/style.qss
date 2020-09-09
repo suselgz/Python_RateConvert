@@ -1,0 +1,48 @@
+﻿QMainWindow{
+    border-image:url(./ground.jpg);
+    background: rgb(0,0,0);
+}
+QPushButton{
+	width: 80px;
+	height: 60px;
+	box-shadow: inset 0px -2px 0px 0px 
+		rgba(18, 149, 108, 1);
+	border-radius: 10px;
+
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgba(25, 25, 25, 1);
+}
+QPushButton:enabled {
+        background: rgba(36, 199, 148, 1);      
+}
+QPushButton:!enabled {
+        background: rgb(220,220,220);
+		color: rgb(106,106,106);
+}
+QPushButton:enabled:hover{
+        background: rgb(39,222,153);
+}
+QPushButton:enabled:pressed{
+        background: rgba(0, 171, 117, 1);
+}
+QLabel{
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgba(37, 37, 37, 1);
+}
+QLabel#label_title
+{
+    font-size: 48px;
+}
+QToolTip{
+    border: 1px solid rgb(45, 45, 45);
+    background: white;
+    color: red;
+}
